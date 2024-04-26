@@ -1,0 +1,105 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: aqua;
+    color: wheat;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+/* Header styles */
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .nav {
+    display: flex;
+    gap: 40px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color:#9E9AA8;
+}
+
+/* intro styles */
+.intro .container {
+    display: flex;
+    gap:100px;
+}
+
+.intro {
+     margin: 40px 0;
+}
+
+.intro h1 {
+    font-size: 62px;
+}
+
+.intro p {
+    color: #9E9AA8;
+    line-height: 26px;
+}
+
+.intro img {
+    position: relative;
+    right: -100px;
+}
+
+/* Boost styles */
+.boost {
+    background-color: brown;
+    padding-bottom: 50px;
+}
+
+.boost form {
+    position: relative;
+    top: -60px;
+    background-color: #4b3f6b;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boost input {
+    width: 80%;
+    padding: 10px;
+
+    border-radius: 7px;
+    border:none;
+    height: 40px;
+}
+
+.boost button {
+    background-color: #2bd0d0;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    width: 15%;
+    height: 40px;
+}
+
+.boost h2 {
+    text-align: center;
+    color: white;
+}
